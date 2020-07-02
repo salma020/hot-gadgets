@@ -10,23 +10,30 @@
 <body>
     
 <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-            <img width="100px" src="images/logo.png" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Product</a>
-            <a class="nav-item nav-link" href="#">About us</a>
-            <a class="nav-item nav-link" href="#">Contact us</a>
-            
-          </div>
-        </div>
-      </nav>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img width="100px" src="images/logo.png" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Smartphone</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Laptop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">categories</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </div>
 <div class="container bgimg">
     <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
@@ -95,8 +102,10 @@
             <a href="">see all</a> 
     </div>
     <div class="card-deck">
-        <div class="card">
-          <img src="images/phone/phone-1.png" class="card-img-top" alt="...">
+      
+        <div class="card card3">
+          
+          <img src="images/phone/phone-1.png" class="card-img-top img3" alt="...">
           <div class="card-body">
             <h5 class="card-title">Redme Y3</h5>
             <p class="card-text">This is a longer card with supporting text below .</p>
@@ -104,8 +113,10 @@
             <a href="" class="btn">Buy Now &rarr;</a>
           </div>
         </div>
-        <div class="card">
-          <img src="images/phone/phone-2.png" class="card-img-top" alt="...">
+
+        <div class="card card3">
+          
+          <img src="images/phone/phone-2.png" class="card-img-top img3" alt="...">
           <div class="card-body">
             <h5 class="card-title">Iphone 11 pro</h5>
             <p class="card-text">This card has supporting text below as a natural lead.</p>
@@ -113,8 +124,10 @@
             <a href="" class="btn">Buy Now &rarr;</a>
           </div>
         </div>
-        <div class="card">
-          <img src="images/phone/phone-3.png" class="card-img-top" alt="...">
+      
+        <div class="card card3">
+          
+          <img src="images/phone/phone-3.png" class="card-img-top img3" alt="...">
           <div class="card-body">
             <h5 class="card-title">Samsung Galaxy</h5>
             <p class="card-text">This is a wider card with supporting text below as a .</p>
@@ -123,7 +136,8 @@
           </div>
         </div>
       </div>
-    
+  
+  
 </div>
 <div class="container">
     <div class="header">
@@ -133,8 +147,8 @@
             <a href="">see all</a> 
     </div>
     <div class="card-deck">
-        <div class="card">
-          <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+        <div class="card card3">
+          <img src="images/laptop/product-1.png" class="card-img-top img3" alt="...">
           <div class="card-body">
             <h5 class="card-title">Asus Vivobook</h5>
             <p class="card-text">This is a longer card with supporting text below as a .</p>
@@ -142,8 +156,8 @@
             <a href="" class="btn">Buy Now &rarr;</a>
           </div>
         </div>
-        <div class="card">
-          <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+        <div class="card card3">
+          <img src="images/laptop/product-2.png" class="card-img-top img3" alt="...">
           <div class="card-body">
             <h5 class="card-title">Lanovo smart</h5>
             <p class="card-text">This card has supporting text below as a natural lea.</p>
@@ -151,8 +165,8 @@
             <a href="" class="btn">Buy Now &rarr;</a>
           </div>
         </div>
-        <div class="card">
-          <img src="images/laptop/product-3.png" class="card-img-top" alt="...">
+        <div class="card card3">
+          <img src="images/laptop/product-3.png" class="card-img-top img3" alt="...">
           <div class="card-body">
             <h5 class="card-title">Samsung Galaxy</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural.</p>
@@ -165,7 +179,9 @@
 </div>
 <div class="container">
     <h4 class="h4">Categories</h4>
-   
+   <div class="underline">
+
+   </div>
     <div class="d-flex bd-highlight mb-3">
         
         <div class="bags d-flex align-items-center">
@@ -176,11 +192,16 @@
           </div>
     </div>
        <div class="beauty p2">
-        <div class="p-2 p-21 bd-highlight">
+        <div class="p-2 bd-highlight">
+          <div class="midimg2">
             <img width="180px" src="images/Categories/perfume.png" alt="">
             <h6>beauty</h6>
-            <img width="180px" src="images/Categories/shoe.png" alt="">
-            <h6>shoes</h6>
+          </div>
+            <div class="midimg2">
+              <img width="180px" src="images/Categories/shoe.png" alt="">
+              <h6>shoes</h6>
+            </div>
+            
         </div>
     </div>
     <div class="pale">
