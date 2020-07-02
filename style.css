@@ -3,8 +3,9 @@
 }
 .container{
     border-radius: 5px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
     box-shadow: 2px 2px 8px rgb(245, 236, 236);
+    padding:20px ;
 }
 .btn{
     background-image: linear-gradient(90deg,rgb(243, 175, 168) 0%,tomato 100%);
@@ -70,11 +71,14 @@
     margin-bottom: 20px;
     
 }
-.midimg2{
-    margin-top: 20px;
-    box-shadow: 3px 3px 8px gray;
-    padding: 8px;
-    margin-left: 30px;
-    border-radius: 5px;
+.cat1,.cat2{
+    border: 1px solid lightgray;
+    box-shadow: 3px 3px 8px grey;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+}
 
+h6{
+    margin-top: 5px;
 }
