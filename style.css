@@ -3,8 +3,9 @@
 }
 .container{
     border-radius: 5px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
     box-shadow: 2px 2px 8px rgb(245, 236, 236);
+    padding:20px ;
 }
 .btn{
     background-image: linear-gradient(90deg,rgb(243, 175, 168) 0%,tomato 100%);
@@ -33,19 +34,24 @@
     margin-top: -30px;
     color: rgb(226, 152, 152);
 }
-.card{
+.card3{
     border: none;
-    box-shadow: 3px 3px 8px rgb(223, 216, 216);
+    box-shadow: 3px 3px 8px gray;
     text-align: center;
-    width: 30%;
-
-    
-    
+    padding-bottom: 15px;
 }
-.card img{
-    width: 180px;
-    margin-left: 70px;
-    margin-top: 10px;
+.img3{
+    width: 200px;
+    margin: auto;
+    padding-top: 20px;
+}
+.underline{
+    border: 2px solid rgb(243, 175, 168) ;
+    width: 90px;
+    margin: auto;
+    border-radius: 3px;
+    margin-top: -10px;
+   
 }
 
 .bags,.beauty,.pale{
@@ -54,6 +60,7 @@
 .p-21{
     box-shadow: 5px 5px 10px rgb(190, 188, 188);
     margin-left: 40px;
+    border-radius: 5px;
 }
 .p2{
     margin-right: 50px;
@@ -63,4 +70,15 @@
     margin-top: 20px;
     margin-bottom: 20px;
     
+}
+.cat1,.cat2{
+    border: 1px solid lightgray;
+    box-shadow: 3px 3px 8px grey;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+h6{
+    margin-top: 5px;
 }
